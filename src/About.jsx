@@ -1,15 +1,14 @@
-import './App.css';
 import React from 'react';
 
-class Home extends React.Component{
+class About extends React.Component{
     render(){
         return (
             <div className="App">
                 <header>
-                    Home Page
+                    About me section
                 </header>
             </div>
         );
     }
 }
-export default Home;
+export default About;
