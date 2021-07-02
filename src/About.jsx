@@ -7,6 +7,8 @@ class About extends React.Component{
                 <header>
                     About me section
                 </header>
+                    <div>Need text about myself</div>
+                    <div>Need picture</div>
             </div>
         );
     }

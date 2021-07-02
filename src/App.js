@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import {Route, Switch,Link} from "react-router-dom";
 import './App.css';
 import Home from "./Home";
@@ -9,9 +8,12 @@ function App() {
     <div>
       <header >
         <nav>
-        <ul id="nav">
-          <li><Link to="/">Home </Link></li>
-          <li><Link to="/about">About </Link></li>
+        <ul className="menu">
+          <li className="logo">icon</li>
+          <li className="item"> <Link to="/">Home </Link></li>
+          <li className="item"><Link to="/about">About </Link></li>
+          <li className="toggle"><a href="#"><i className="fa fa-bars" id="bars"></i></a></li>
+
         </ul>
         </nav>
         <Switch>

@@ -8,6 +8,7 @@ class Home extends React.Component{
                 <header>
                     Home Page
                 </header>
+                    <div>Will  plant interactive tree here</div>
             </div>
         );
     }
