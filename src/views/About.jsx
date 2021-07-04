@@ -9,6 +9,7 @@ class About extends React.Component{
                 </header>
                     <div>Need text about myself</div>
                     <div>Need picture</div>
+                    <div>You got it buddy xD</div>
             </div>
         );
     }
