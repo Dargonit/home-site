@@ -5,15 +5,16 @@ class LibrarySection extends React.Component {
         super(props);
         this.state = {
             section: props.section.section,
-            books: props.section.books
+            books: props.section.books,
+            expanded:false
         }
-        console.log(this.state.books);
     }
 
     render() {
         return (
             <div className="Library-Section">
                 Section name: {this.state.section}
+
                 {
                     this.state.books.map(book => (
                         <div>
