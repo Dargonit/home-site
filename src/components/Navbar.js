@@ -15,7 +15,7 @@ function Navbar() {
                         <li className="item"> <Link to="/home-site">Home </Link></li>
                         <li className="item"> <Link to="/library">Library </Link></li>
                         <li className="item"><Link to="/about">About </Link></li>
-                        <li className="toggle"><a href="#"><i className="fa fa-bars" id="bars"></i></a></li>
+                        <li className="toggle"><a href="/"><i className="fa fa-bars" id="bars"></i></a></li>
 
                     </ul>
                 </nav>

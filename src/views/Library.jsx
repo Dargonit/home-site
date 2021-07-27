@@ -10,8 +10,8 @@ class Library extends React.Component {
                     enjoy.
                 </div>
                 {
-                    Books.map(section => (
-                        <LibrarySection section={section}></LibrarySection>
+                    Books.map((section,index) => (
+                        <LibrarySection key={index} section={section}></LibrarySection>
                     ))
                 }
             </div>
